@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularze-zadanie</title>
+    <style>
+        table{
+          border-collapse: collapse;
+        }
+        tr:hover{
+          background-color: #000000;
+        }
+      </style>
+</head>
+<body>
+    <table>
+      <fieldset>
+        <legend>Personal information:</legend>
+    <form>
+        <label for="imie"> Login</label><br>
+        <input type="text" name="imie" id="imie"><br>
+    </form>
+    <form>
+        <label for="haslo">Password</label><br>
+        <input type="password" name="haslo" id="haslo"><br><br>
+
+        <label for="kod-pocztowy"><b>Radio button</b></label><br>
+
+        <input type="radio" id="html" value="html">
+        <label for="radio">Male</label><br>
+        <input type="radio" id="css" value="css">
+        <label for="radio">Female</label><br>
+        <input type="radio" id="css" value="css">
+        <label for="radio">Other</label><br><br>
+
+        <label for="cars">Wybierz samochód</label><br>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mazda">Mazda</option>
+        </select><br><br>
+
+        <label for="text"><b>Info</b></label><br>
+        <textarea name="message " rows="5" cols="20" placeholder="Write here"></textarea><br><br>
+
+        <label for="wiek"><b>Number</b></label><br>
+        <input type="number" name="haslo" id="wiek" min="0" value="0"><br><br>
+        
+
+
+        <label for="kod-pocztowy"><b>Select option</b></label><br>
+
+        <input type="radio" id="html" value="html">
+        <label for="radio">I have a bike</label><br>
+        <input type="radio" id="html" value="html">
+        <label for="radio">I have a car</label><br><br>
+
+        
+        <label for="birthday"><b>Birthday</b></label><br>
+        <input type="date" name="birthday" id="birthday"><br><br>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+    </table>
+</body>
+</html>
